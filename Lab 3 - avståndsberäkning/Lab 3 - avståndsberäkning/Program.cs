@@ -11,5 +11,10 @@ namespace Lab_3___avståndsberäkning
         static void Main(string[] args)
         {
         }
+
+        static double Distance(Location l1, Location l2)
+        {
+            return Math.Sqrt(Math.Pow(l1.latitude - l2.latitude, 2) + Math.Pow(l1.longitude - l2.longitude, 2));
+        }
     }
 }
