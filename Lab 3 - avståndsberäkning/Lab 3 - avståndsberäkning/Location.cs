@@ -9,7 +9,6 @@ namespace Lab_3___avståndsberäkning
     class Location
     {
         public string Name;
-        public double latitude = 0;
-        public double longitude = 0;
+        public Position Position;
     }
 }
